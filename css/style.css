@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: tomato;
+    font-size: 2rev;
+}
+span:hover{
+    color: red;
+}
+
+body{
+    background-image: url(../images/bg.jpg);
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+h1{
+    font-size: 6rem;
+    margin-top: -20rem;
+}
+.countdwon-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.text{
+    font-size: 6rem;
+    line-height: 2;
+    margin: 0 2rem;
+}
+.countdwon-box {
+    text-align: center;
+}
+@media only screen and (max-width: 720px) {
+    h1{
+        font-size: 2rem;
+        margin-top: -20rem;
+        color: aliceblue;
+    }
+    .text{
+        font-size: 2rem;
+        line-height: 2;
+        margin: 0 2rem;
+        color: aliceblue;
+    }
+  }
